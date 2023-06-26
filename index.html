@@ -1,0 +1,25 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Game of Life</title>
+  
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./timer.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./util.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./Automata.js"></script>
+</head>
+<body>
+    <canvas id="gameWorld" width="1000" height="1000" style="background: white; border: 1px solid black" tabindex="0" autofocus></canvas>
+    <div id="ticks">Ticks: 0</div>
+    <div>
+        <label for="speed">Speed:</label>
+        <label for="speed">Fast</label>
+        <input type="range" id="speed" min="100" max="500" value="300" step="10">
+        <label for="speed">Slow</label>
+    </div>
+</body>
+</html>
